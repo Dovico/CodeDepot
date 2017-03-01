@@ -7,25 +7,45 @@
 </head>
 <body ng-app="myApp" ng-controller="AppCtrl">
 	
-	<div id="header" class="outer">
+<div id="mainmenu" class="">
 		<div class="inner">
-			<h5 class="section-title">The Code Depot</h5>
+			<ul class="menu-items">
+				<li class="item" ng-repeat="item in menuItems"><a href="{{item.url}}">{{item.text}}</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="header" class="">
+		<div class="inner">
+			<img src="img/logo.png">
 			<div class="main-container">
 				
 			</div>
 		</div>
 	</div>
 
-	<div id="body" class="outer">
+	<div id="body" class="">
 		<div class="inner">
-			<h5 class="section-title">Main body</h5>
+			<h1 class="section-title">About Code Depot</h1>
+			<p>A monthly social for tech related discussions, projects, and showcases, Code Depot is intended to be a free form Hackerspace of sorts for the Dovico team and associated network. Each month a group project will be chosen and participants can freely help develop an open-source solution that is shared as a public GitHub repository <a href="#">here</a>.</p>
+			<p>There will be agroup chosen subjects for dicussion, chosen each month and presented the follow month. Presentation and personal project showcases are also encouraged.</p>
+			<p>The main idea here is to step outside our every day work cycle and try new things, learn from each other, and share our mutual passions for technology.</p>
 			<div class="main-container">
 				
 			</div>
 		</div>
 	</div>
 
-	<div id="footer" class="outer">
+	<div id="body" class="">
+		<div class="inner">
+			<h1 class="section-title">Pointless Projects</h1>
+			<div class="main-container">
+				<p>Far from completely pointless, these projects are meant to be playful, inspiring, and not always with a useful purpose. Sometimes its just fun to play with technology.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" class="">
 		<div class="inner">
 			<h5 class="section-title">Footer</h5>
 			<div class="main-container">

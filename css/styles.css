@@ -4,7 +4,7 @@ div#header {
     text-align: center;
     color: #fff;
     display: block;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }
 
 div#body {
@@ -29,6 +29,38 @@ div#footer {
 .inner {
     max-width: 700px;
     margin: 0 auto;
-    text-align: left;
-    min-height: 200px;
+}
+
+div#mainmenu {
+    background: #d26100;
+    color: #fff;
+    padding: 10px 0;
+}
+
+ul.menu-items {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-items li.item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#header img {
+    width: 250px;
+    border: 2px solid #fff;
+    margin: 50px;
+}
+
+.menu-items .item a{
+    color: #fff;
+    text-decoration: none;
+    padding:5px;
+}
+
+.menu-items .item a:hover{
+    color: #822600;
+    cursor: pointer;
 }
