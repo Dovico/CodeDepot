@@ -1,0 +1,19 @@
+{
+  "name": "code-depot",
+  "version": "1.0.0",
+  "description": "More info coming soon...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dovico/CodeDepot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dovico/CodeDepot/issues"
+  },
+  "homepage": "https://github.com/Dovico/CodeDepot#readme"
+}
