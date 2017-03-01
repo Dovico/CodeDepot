@@ -1,0 +1,26 @@
+div#header {
+    width: 100%;
+    background: #f58220;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 100px 0;
+}
+
+div#body {
+    width: 100%;
+    background: #f58220;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 100px 0;
+}
+
+div#footer {
+    width: 100%;
+    background: #bbb;
+    text-align: center;
+    color: #000;
+    display: block;
+    padding: 100px 0;
+}
